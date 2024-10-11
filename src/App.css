@@ -5,11 +5,40 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 h1{
+
     width:100%;
-    background-color: grey;
-    padding: 10px;
+    padding-bottom: 50px;
+    color:yellow;
     text-shadow:1px 1px 10px white;
+    text-align: center;
+    
+}
+.form-container{
+    min-height:500px;
+    width:500px;
+    background-color: white;
+    box-shadow: 10px 10px 10px grey;
+    border-radius:10px
+}
+.Query{
+    width: 100%;  
+    padding:20px;
+}
+label{
+    display: block;
+    padding-bottom:10px;
+    font-size:24px;
+    font-weight:500;
+}
+.query-input{
+    font-size:24px;
+    padding:10px;
+    width:100%;
+    border:none;
+    box-shadow:1px 1px 10px #999;
+    border-radius:10px;
     text-align: center;
 }
