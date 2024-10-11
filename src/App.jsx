@@ -9,8 +9,10 @@ const App = () => {
         <form className='Query'>
           <label>Enter Query</label>
           <input className='query-input' type="text" placeholder="Enter your query"/>
-          <label>Enter class</label>
-          <input className='query-input' type="text" placeholder="Enter class"/>
+          <label>Enter FirstName</label>
+          <input className='query-input' type="text" placeholder="Enter FirstName"/>
+          <label>Enter LastName</label>
+          <input className='query-input' type="text" placeholder="Enter LastName"/>
         </form>
       </div>
     </div>
