@@ -9,6 +9,8 @@ const App = () => {
         <form className='Query'>
           <label>Enter Query</label>
           <input className='query-input' type="text" placeholder="Enter your query"/>
+          <label>Enter class</label>
+          <input className='query-input' type="text" placeholder="Enter class"/>
         </form>
       </div>
     </div>
