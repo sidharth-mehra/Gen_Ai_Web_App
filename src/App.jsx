@@ -8,7 +8,7 @@ const App = () => {
       <div className='form-container'>
         <form className='Query'>
           <label>Enter Query</label>
-          <input className='query-input' type="text" placeholder="Enter query"/>
+          <input className='query-input' type="text" placeholder="Enter your query"/>
         </form>
       </div>
     </div>
